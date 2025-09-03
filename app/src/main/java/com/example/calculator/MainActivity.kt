@@ -127,7 +127,7 @@ class MainActivity : AppCompatActivity() {
                     x = when {
                         eat('x'.code) || eat('*'.code) -> x * parseFactor()
                         eat('/'.code) -> x / parseFactor()
-                        eat('%'.code) -> x % parseFactor()
+                        eat('%'.code) -> x * parseFactor() / 100
                         else -> return x
                     }
                 }

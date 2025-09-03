@@ -22,7 +22,7 @@
         android:paddingRight="20dp"
         android:layout_marginBottom="300dp"
         android:inputType="text"
-        android:text="san" />
+        android:text="" />
 
 
 
